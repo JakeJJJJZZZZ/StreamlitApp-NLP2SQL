@@ -1,6 +1,10 @@
 # StreamlitApp-NLP2SQL
 Streamlit project that convert natural language to SQL query and output result from a dataset
 
+# Dataset 'Credit_Card_Fraud.csv' source:
+ https://www.kaggle.com/datasets/neharoychoudhury/credit-card-fraud-data 
+ 
+
 
 # Some good questions to input to the chatbot about the dataset can be:
 

@@ -5,7 +5,21 @@ import chatbot
 
 # Initialize Streamlit app
 st.title("🧠🤖Credit Card Fraud Detection Chatbot ")
+# Add a description or instruction below the title
+st.markdown("""
+Welcome to the Credit Card Fraud Detection Chatbot! This app allows you to upload a credit card transaction dataset and interact with the data through natural language questions.
 
+### Instructions:
+1. **Upload your dataset**: Start by uploading your `Credit_Card_Fraud.csv` file using the button below.
+2. **Ask questions**: After the dataset is uploaded, you can ask questions about the dataset in natural language. The chatbot will convert your questions into SQL queries and display the results.
+3. **Explore the data**: Use the chatbot to explore patterns, detect anomalies, and investigate potential fraudulent activities in your dataset.
+
+example question: 
+-What is the distribution of transaction amounts (amt) across different states?
+-What are the top 5 cities with the highest number of fraudulent transactions?
+
+Feel free to get started by uploading your dataset!
+""")
 
 # Step 1: File upload
 uploaded_file = st.file_uploader("Upload your Credit_Card_Fraud.csv file", type=["csv"])
