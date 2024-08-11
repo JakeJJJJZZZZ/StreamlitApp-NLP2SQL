@@ -4,7 +4,8 @@ import db_manager
 import chatbot
 
 # Initialize Streamlit app
-st.title("🤖🧠🤖 Credit Card Fraud Detection Chatbot")
+st.title("🧠🤖Credit Card Fraud Detection Chatbot ")
+
 
 # Step 1: File upload
 uploaded_file = st.file_uploader("Upload your Credit_Card_Fraud.csv file", type=["csv"])
